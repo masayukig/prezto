@@ -86,9 +86,9 @@ function prompt_steeef_setup {
 
   # Define prompts.
   PROMPT="
-${_prompt_steeef_colors[3]}%n%f@${_prompt_steeef_colors[2]}%m%f:${_prompt_steeef_colors[5]}%~%f "'${vcs_info_msg_0_}'" [%D %T]
+${_prompt_steeef_colors[3]}%n%f@${_prompt_steeef_colors[2]}%m%f:${_prompt_steeef_colors[5]}%~%f "'${vcs_info_msg_0_}'"
 "'$python_info[virtualenv]'"$ "
   RPROMPT=''
 }
 
-prompt_steeef_setup "$@"
+prompt_steeefcustom_setup "$@"
